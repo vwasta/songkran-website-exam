@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Songkran Festival Details</title>
+    <style>
+      body {
+        background-color: #fffacd;
+        font-family: Verdana, sans-serif;
+      }
+      h2 {
+        color: #ff6347;
+      }
+      .image-container {
+        background-image: url('https://images.unsplash.com/photo-1587091999387-b548c3316f62?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 600px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      .card {
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+        width: 250px;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+      }
+      .card a {
+        text-decoration: none;
+        color: #ff6347;
+        font-weight: bold;
+      }
+      .card a:hover {
+        text-decoration: underline;
+      }
+      .card h3 {
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 18px;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Songkran Celebrations</h2>
+
+    <p>
+      Songkran is one of the most exciting festivals in Thailand. It is
+      celebrated with water fights, parades, and cultural activities. Check out
+      the key locations below for Songkran celebrations:
+    </p>
+
+    <ul>
+      <li>Bangkok: Silom and Khao San Road</li>
+      <li>Chiang Mai: Old City Moat area</li>
+      <li>Pattaya: Beach Road</li>
+    </ul>
+
+    <!-- Image with clickable cards -->
+    <div class="image-container">
+      <!-- Card 1 -->
+      <div class="card">
+        <h3>Tourism Thailand</h3>
+        <p>Explore more details on the official tourism website.</p>
+        <a href="https://www.tourismthailand.org" target="_blank"
+          >Visit Website</a
+        >
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <h3>Songkran Wikipedia</h3>
+        <p>Learn about the history and significance of Songkran.</p>
+        <a
+          href="https://en.wikipedia.org/wiki/Songkran_(Thailand)"
+          target="_blank"
+          >Read More</a
+        >
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <h3>Bangkok Songkran Guide</h3>
+        <p>Check out the best spots to celebrate in Bangkok.</p>
+        <a href="https://www.bangkok.com/songkran-festival/" target="_blank"
+          >View Guide</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
